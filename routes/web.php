@@ -16,4 +16,4 @@ use App\Http\Controllers\EventController;
 */
 
 Route::get("/", [HomeController::class,"index"])->name("home");
-Route::get("/events", [EventController::class,"index"])->name("event.index");
+Route::get("/events", [EventController::class,"index"])->name("events.index");
