@@ -33,7 +33,7 @@ class EventsTableSeeder extends Seeder
                 $new_event->date_start_event = $event[4];
                 $new_event->date_end_event = $event[5];
                 $new_event->open_reservation = $event[6];
-                $new_event->event_logo = $event[7];
+                $new_event->location_url = $event[7];
                 $new_event->overview = $event[8];
                 $new_event->save();
            }
