@@ -3,13 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\home;
+use App\Models\Home;
 
 class HomeController extends Controller
 {
     public function index()
     {
-        return view("home", compact("home"));
+        return view("home");
     }
     //
 }
