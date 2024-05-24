@@ -6,12 +6,12 @@
 
 @section('content')
     <ul>
-        @foreach ($events as $event)
+        @foreach ($events as $item)
             <li>
-                {{$event->name}} : {{$event->city}} : {{$event->address}} : {{$event->ticket_price}} : {{$event->date_start_event}}
+                {{$item->name}} : {{$item->city}} : {{$item->address}} : {{$item->ticket_price}} : {{$item->date_start_item}}
 
             </li>        
-            <img src="{{$event->location_url}}" alt="{{$event->name}}">
+            <img src="{{$item->location_url}}" alt="{{$item->name}}">
         @endforeach
     </ul>
 @endsection

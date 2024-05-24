@@ -4,7 +4,8 @@
 
 @section('content')
 <main>
-    <h1>Home page</h1>
+    <h1>Pr^2</h1>
+    <div id="jumbo"></div>
 </main>
 
 @endsection
