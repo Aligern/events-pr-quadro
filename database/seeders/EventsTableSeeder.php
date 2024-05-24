@@ -36,8 +36,6 @@ class EventsTableSeeder extends Seeder
                 $new_event->event_logo = $event[7];
                 $new_event->overview = $event[8];
                 $new_event->save();
-
-
            }
        }
     }
