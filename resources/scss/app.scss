@@ -9,10 +9,6 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
-}
-
 #jumbo {
     background-image: url('/img/events_cover.jpeg');
     background-repeat: no-repeat;
@@ -20,3 +16,4 @@ h1 {
     background-position: center;
     height: 500px;
 }
+
