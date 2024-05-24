@@ -97,3 +97,35 @@ php artisan make:controller NomeController
 # creo le views relative
 
 ```
+
+# Event Organizer Database Project
+
+## Overview
+Questo progetto è pensato per rappresentare una fittizzia agenzia d'organizzazione d'eventi serali come ad esempio: concerti, serate nei locali ecc..
+
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Administrator](#Administrator)
+- [User](#User)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Database Configuration](#database-configuration)
+- [Running Migrations and Seeders](#running-migrations-and-seeders)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+## Administrator:
+ Il sito permetterà agli amministratori di poter gestire le informazioni inerenti i vari eventi:
+ - Aggiungendo, rimuovendo e modificando i dati dei singoli eventi (nome, luogo, capienza, data di inizio, data di fine, img). 
+ - visualizzare il numero di partecipanti.
+ - 
+
+## User:
+- Creare, aggiornare e fornire una scheda per gli eventi.
+- Visualizzare i dettagli degli eventi.
+- Gestire la vendita dei biglietti.
