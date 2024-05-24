@@ -9,6 +9,10 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
+ul {
+    list-style-type: none;
+}
+
 h1 {
     color: $text-color;
 }
@@ -19,4 +23,24 @@ h1 {
     background-size: cover;
     background-position: center;
     height: 500px;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.ls-card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+#image {
+   width: 50%;
+}
+#overview {
+    display: none;
 }
