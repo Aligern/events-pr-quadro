@@ -1,4 +1,4 @@
-@use './partials/variables' as *;
+@use "./partials/variables" as *;
 
 $fa-font-path: "../webfonts" !default;
 
@@ -7,14 +7,33 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 
 h1 {
     color: $text-color;
 }
 
+header {
+    nav {
+        background-color: #313131;
+        img {
+            width: 100px;
+        }
+        li {
+            text-decoration: none;
+            color: #f50505;
+            transition: transform 0.5s ease-in-out, color 0.6s ease-in-out; 
+
+            &:hover {
+                color: #ff6302;
+                transform: scale(1.5) ;
+            }
+
+        }
+    }
+}
 #jumbo {
-    background-image: url('/img/events_cover.jpeg');
+    background-image: url("/img/events_cover.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
