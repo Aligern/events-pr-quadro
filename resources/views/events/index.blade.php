@@ -7,7 +7,7 @@
 @section('content')
 <div class="container">
 @foreach ($events as $event)
-<div class="row d-flex justify-content-center ">
+<div class="row d-flex justify-content-center m-auto">
             <div class="ls-card text-center col-12 col-md-4 col-lg-3">
                 <h4 class="card-title pb-4">
                     <a class="card-link" href="{{ route('events.show', $event->id) }}">
