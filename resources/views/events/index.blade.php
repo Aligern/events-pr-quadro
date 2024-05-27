@@ -2,14 +2,12 @@
 
 @section('title', 'Events')
 
-<h1>Events</h1>
-
 @section('content')
 <div class="container">
 @foreach ($events as $event)
 <div class="row d-flex justify-content-center m-auto">
             <div class="ls-card text-center col-12 col-md-4 col-lg-3">
-                <h4 class="card-title pb-4">
+                <h4 class="card-title pb-2">
                     <a class="card-link" href="{{ route('events.show', $event->id) }}">
                         {{ $event->name }}
                     </a>
@@ -26,6 +24,9 @@
                     <span>
                         {{ $event->ticket_price }} €
                     </span>
+                    <button class="btn btn-primary">
+                        Buy Tickets
+                    </button>
                 </div>
             </div>
         </div>
